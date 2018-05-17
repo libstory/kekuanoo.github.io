@@ -1,0 +1,19 @@
+title:             UW Libraries Podcasting
+email:             perryyee@uw.edu
+description:       An online workshop for podcasting storytellers
+author:            podcasting Teaching Team
+baseurl:           "/"
+url:               "http://kekuanoo.github.io"
+
+# Social Profiles
+twitter_username:  SBootstrap
+github_username:   BlackrockDigital
+facebook_username: StartBootstrap
+
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
