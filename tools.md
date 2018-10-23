@@ -1,4 +1,8 @@
---- layout: page title: Tools description: Hardware, software and equipment to consider background: '/img/bg-tools.jpg' ---
+--- 
+title: Tools 
+description: Hardware, software and equipment to consider 
+background: '/img/bg-tools.jpg' 
+---
 
 ## Planning Documentation
 
