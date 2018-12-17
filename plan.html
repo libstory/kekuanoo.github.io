@@ -54,61 +54,97 @@ background: '/img/t-plan.jpg'
 
 <h3>To complete this module, submit your assignment to your individual Slack channel. Members of the Teaching Team will review your document and provide comments in the channel or through the Comment feature on Google Docs.</h3>
 
-<div class="card col-md-6 mt-5 mb-5">
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="100000">
-    <div class="w-100 carousel-inner" role="listbox">
-      <div class="carousel-item active">
-        <div class="carousel-caption">
-          <div class="row">
-            <div class="col-sm-3">
-              <img src="http://via.placeholder.com/200x200" alt="" class="rounded-circle img-fluid"/>
-            </div>
-            <div class="col-sm-9">
-              <h3>Gives me hope</h3>
-              <small>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</small>
-              <small class="smallest mute">- Yayo Dudemous</small>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="carousel-caption">
-          <div class="row">
-            <div class="col-sm-3">
-              <img src="http://via.placeholder.com/200x200" alt="" class="rounded-circle img-fluid">
-            </div>
-            <div class="col-sm-9">
-              <h3>You will love it.</h3>
-              <small>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</small>
-              <small class="smallest mute">- Yayo Dudemous</small>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="carousel-caption">
-          <div class="row">
-            <div class="col-sm-3">
-              <img src="http://via.placeholder.com/200x200" alt="" class="rounded-circle img-fluid">
-            </div>
-            <div class="col-sm-9">
-              <h3>Velvet pouch!</h3>
-              <small>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</small>
-              <small class="smallest mute">- Yayo Dudemous</small>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="float-right navi">
-    <a class="" href="#carouselExampleControls" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon ico" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="" href="#carouselExampleControls" role="button" data-slide="next">
-      <span class="carousel-control-next-icon ico" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-    </div>
+<!--Carousel Wrapper-->
+<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+  <!--Controls-->
+  <div class="controls-bottom">
+    <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+    <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
   </div>
+  <!--/.Controls-->
+
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+    <li data-target="#multi-item-example" data-slide-to="1"></li>
+    <li data-target="#multi-item-example" data-slide-to="2"></li>
+  </ol>
+  <!--/.Indicators-->
+
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+
+    <!--First slide-->
+    <div class="carousel-item active">
+
+      <div class="col-md-4">
+        <div class="card mb-2">
+          <div class="card-body">
+            <h4 class="card-title">Step 1: What are you calling this project?</h4>
+            <p class="card-text">Read the overview, instructions, and advice on the first page of the NPR Project Blueprint. While you are welcome to gather the physical materials suggested in the instructions, we want you to fill in your responses directly in the document itself.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 clearfix d-none d-md-block">
+        <div class="card mb-2">
+          <div class="card-body">
+            <h4 class="card-title">Step 2: Describe your project in one memorable sentence</h4>
+            <p class="card-text">We love the fact that the blueprint labels this step as a "statement of purpose" rather than an elevator pitch. Indeed, go ahead and jot down a single memorable sentence that encapsulates what your proejct is truly, or will be, about. You may revisit this statement of purpose later to review and refine your statement once you have advanced further along in the blueprint.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 clearfix d-none d-md-block">
+        <div class="card mb-2">
+          <div class="card-body">
+            <h4 class="card-title">Step 3: Define your audience</h4>
+            <p class="card-text">This step is to illustrate the types of audiences you will have: a main audience and a supporting audience. Main audiences are going to be the direct listeners, those who will be downloading your work for their personal consumption. Supporting audiences are those who may also be listening to your work, but are not the "target" audience. For example, your podcast may focus on the latest and greatest in tech gadgetry. Your target audience might be early adopters of technology. Supporting audiences for your show could be those who have a passing interest in tech, developers and vendors of the devices and tools you are reviewing, listeners of similar shows, and so on. While you may have quite a few supporting audiences, you will only have 1 (maybe two) main audience for the project. Assume everyone else is a supporting audience.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!--/.First slide-->
+
+    <!--Second slide-->
+    <div class="carousel-item">
+
+      <div class="col-md-4">
+        <div class="card mb-2">
+          <div class="card-body">
+            <h4 class="card-title">Step 4: What do you think you're making?</h4>
+            <p class="card-text">Now we're getting into the nitty gritty of your podcast idea. You will identify your particular podcast format (see the modules page), audience needs and opportunities, key benefits that the project will provide your audience, alternative ways that the audience might obtain the information you will talk about, and your competitive advantage. This particular stage may seem like a lot to consider - and it is - but know that this is a draft and is meant to provide a broad representation of your podcast's characteristics. At the end of this step, you will have a project statement that will hopefully provide a thorough description of your podcast, its audience, and the advantages that it will provide in its particular format.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 clearfix d-none d-md-block">
+        <div class="card mb-2">
+          <div class="card-body">
+            <h4 class="card-title">Step 5: Outline a sample episode or story</h4>
+            <p class="card-text">Using the discussion prompts found in step 6 (page 9 of the blueprint), you identify key items in your podcast that are essential to moving forward. You will identify a premise and the best way to support that premise. You will also identify the depth of your story and whether or not your research, reporting, scripts and interviews can sustain a 2-5 minute podcast. It's a lot of work to produce a story even as short as this...you'd be surprised! Some of the prompts will also discuss story elements such as character, universal theme, setting, etc. While your podcast may focus on a specific interview, nonfiction narrative, or news of the day, you will always have a character, a setting, and a universal theme. Thinking in terms of a single central question that you are trying to answer can also be helpful (for example, "what is gerrymandering?" or "was Adnan Syed wrongly convicted?"). You will also want to revisit your audience to see if this outline continues to meet their needs or if your overall concept has changed.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 clearfix d-none d-md-block">
+        <div class="card mb-2">
+          <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
+            alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Step 6: How might you engage your audience?</h4>
+            <p class="card-text">This step will help you work through audience engagement. Not only can you use this step to identify how to connect with your audience (i.e. how they will hear and listen to your podcast) but also how they can interact with you. Brainstorm some ideas using the recommended examples and jot down some ideas that are relevant to your field or personal networks.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!--/.Second slide-->
+
+  </div>
+  <!--/.Slides-->
+
 </div>
+<!--/.Carousel Wrapper-->
