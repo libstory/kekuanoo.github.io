@@ -1,9 +1,9 @@
 title:             Storytelling Fellows Podcasting
-email:             perryyee@uw.edu
+email:             libstory@uw.edu
 description:       A UW Libraries online workshop for podcasting storytellers
 author:            Podcasting Teaching Team
 baseurl:           "/"
-url:               "http://kekuanoo.github.io"
+url:               "http://libstory.github.io"
 
 # Social Profiles
 twitter_username:
