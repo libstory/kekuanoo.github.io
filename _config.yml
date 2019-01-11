@@ -6,9 +6,9 @@ baseurl:           "/"
 url:               "http://libstory.github.io"
 
 # Social Profiles
-twitter_username: uwlibraries
+twitter_username:
 github_username: libstory
-facebook_username: uwlibraries
+facebook_username: 
 
 # Build settings
 markdown:          kramdown
