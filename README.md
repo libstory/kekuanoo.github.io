@@ -1,6 +1,6 @@
 
 # UW Libraries Storytelling Fellows
-![alt text](https://github.com/libstory/libstory.github.io/blob/master/img/dsflogo.png "Image of the Digital Storytelling Fellows logo") 
+<img src="https://github.com/libstory/libstory.github.io/blob/master/img/dsflogo.png" alt="Digital Storytelling Fellows Logo" width="200"/>
 
 This site was inspired by the numerous workshops and courses available on the open web who have chosen to make their learning materials free and available for all educators and students alike. Content and delivery made possible by the following:
 
