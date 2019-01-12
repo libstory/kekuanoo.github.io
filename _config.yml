@@ -8,7 +8,7 @@ url:               "http://libstory.github.io"
 # Social Profiles
 twitter_username:
 github_username: libstory
-facebook_username: 
+facebook_username:
 
 # Build settings
 markdown:          kramdown
@@ -17,3 +17,6 @@ paginate_path:     "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
+
+# Google Analytics
+google_analytics: UA-132349226-1
