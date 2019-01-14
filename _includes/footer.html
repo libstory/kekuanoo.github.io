@@ -1,54 +1,78 @@
 <!-- Footer -->
 
 <hr>
+<!-- Footer -->
+<footer class="page-footer font-small teal pt-4">
 
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <ul class="list-inline text-center">
-          {% if site.twitter_username %}
-          <li class="list-inline-item">
-            <a href="https://www.twitter.com/{{ site.twitter_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.facebook_username %}
-          <li class="list-inline-item">
-            <a href="https://www.facebook.com/{{ site.facebook_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.github_username %}
-          <li class="list-inline-item">
-            <a href="https://github.com/{{ site.github_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-        </ul>
-        <p class="copyright text-muted"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. {{ site.author }} {{ 'now' | date: "%Y" }}</p>
-      </div>
-    </div>
-  </div>
-<br>
-    <div class="container">
+    <!-- Footer Text -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
       <div class="row">
-    <div class="col-lg-8 col-md-10 mx-auto">
-      <ul class="list-inline text-center">
-        <img src="/img/U.Lib_UW_Research.Com_k.png" alt="University of Washington Libraries Logo">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <ul class="list-inline text-center">
+            {% if site.twitter_username %}
+            <li class="list-inline-item">
+              <a href="https://www.twitter.com/{{ site.twitter_username }}">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            {% endif %}
+            {% if site.facebook_username %}
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/{{ site.facebook_username }}">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            {% endif %}
+            {% if site.github_username %}
+            <li class="list-inline-item">
+              <a href="https://github.com/{{ site.github_username }}">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            {% endif %}
+          </ul>
         </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mb-md-0 mb-3">
+
+          <!-- Content -->
+          <img src="/img/U.Lib_UW_Research.Com_k.png" alt="University of Washington Libraries Logo">
+
         </div>
-        </div>
-</footer>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Text -->
+
+    <!-- Copyright -->
+
+    <p class="copyright text-muted">
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+      {{ site.author }} {{ 'now' | date: "%Y" }}</p>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
