@@ -1,45 +1,64 @@
 <!-- Footer -->
 
 <hr>
+<!-- Footer -->
+<footer class="page-footer font-small teal pt-4">
 
-<footer>
   <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <ul class="list-inline text-center">
-          {% if site.twitter_username %}
-          <li class="list-inline-item">
-            <a href="https://www.twitter.com/{{ site.twitter_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.facebook_username %}
-          <li class="list-inline-item">
-            <a href="https://www.facebook.com/{{ site.facebook_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.github_username %}
-          <li class="list-inline-item">
-            <a href="https://github.com/{{ site.github_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-        </ul>
-        <p class="copyright text-muted"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. {{ site.author }} {{ 'now' | date: "%Y" }}</p>
-      </div>
-    </div>
-  </div>
-</footer>
+  			<div class="row text-center text-xs-center text-sm-center text-md-center">
+  				<div class="col-xs-12 col-sm-4 col-md-4">
+            <img src="/img/U.Lib_UW_Research.Com_k.png" align="middle"  alt="University of Washington Libraries Logo">
+  				</div>
+  				<div class="col-xs-12 col-sm-4 col-md-4">
+            <img src="/img/dsf_podclear.png" width="125px;" align="middle" alt="Digital Storytelling Fellows Podcasting logo">
+  				</div>
+  				<div class="col-xs-12 col-sm-4 col-md-4">
+  			<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" align="middle" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+            <p class="copyright text-muted">
+              This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+              {{ site.author }} {{ 'now' | date: "%Y" }}</p>
+  				</div>
+  			</div>
+  			<div class="row">
+  				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+            <ul class="list-inline text-center">
+              {% if site.twitter_username %}
+              <li class="list-inline-item">
+                <a href="https://www.twitter.com/{{ site.twitter_username }}">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              {% endif %}
+              {% if site.facebook_username %}
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/{{ site.facebook_username }}">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              {% endif %}
+              {% if site.github_username %}
+              <li class="list-inline-item">
+                <a href="https://github.com/{{ site.github_username }}">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              {% endif %}
+            </ul>
+  				</div>
+  			</div>
+
+    <!-- Footer Text -->
+
+
+
+  </footer>
+  <!-- Footer -->
