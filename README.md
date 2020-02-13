@@ -8,8 +8,14 @@ This site was inspired by the numerous workshops and courses available on the op
 * Elliott Stevens
 * Erika Bailey
 * Dovi Patiño
+* Dylan Burns
+* Joanne Chern
+* Joan Hua
+* Imaan Ramezanzadeh
+* Charlotte McGrew
+* Melissa Henry
 
-Questions can be sent to libstory@uw.edu. 
+Questions can be sent to libstory@uw.edu.
 
 
 
